@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffeb3b;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+h1{
+    background-color: rgb(246, 255, 0);
+    text-align: center;
+    border-radius: 10px;
+    border: 2px groove purple;
+}
+
+.contenedor {
+  text-align: center;
+}
+
+button {
+  background-color: #fbc02d;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #f9a825;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.personaje {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  width: 180px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.personaje img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.error {
+  color: red;
+  border: 5px groove rgb(193, 109, 252);
+  font-weight: bold;
+}
+
+.oculto {
+  display: none;
+}
+
+
